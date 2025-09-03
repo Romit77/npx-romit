@@ -24,7 +24,7 @@ Hey there! I'm **Romit Dey**, and I got tired of sending static PDFs as portfoli
 ### The Easy Way (Recommended):
 
 ```bash
-npx romit77
+npx romit
 ```
 
 _Just run this and explore my journey!_
