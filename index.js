@@ -17,8 +17,8 @@ const PROJECTS = [
     description:
       "Comprehensive event management platform with Kanban-style project boards, AI-powered budget optimization, and secure user authentication",
     tech: "Next.js, React.js, TypeScript, OpenAI API, PostgreSQL, Prisma",
-    status: "✅ Completed",
-    github: "https://github.com/romit77dey/evencio",
+    Link: "https://evencio-v1.vercel.app/",
+    github: "https://github.com/Romit77/Evencio",
     highlights: [
       "Organization-based chat systems with real-time collaboration",
       "AI-powered automated poster generation",
@@ -31,8 +31,8 @@ const PROJECTS = [
     description:
       "Comprehensive Solana blockchain web application for token management and wallet operations",
     tech: "Next.js, React.js, TailwindCSS, Solana-wallet-adapter, solana/web3.js, SPL token library",
-    status: "✅ Completed",
-    github: "https://github.com/romit77dey/tresorx",
+    Link: "http://tresor-x.vercel.app/",
+    github: "https://github.com/Romit77/Tresor-X",
     highlights: [
       "Token creation with metadata management",
       "SOL airdrop and transfer functionality",
@@ -151,14 +151,25 @@ async function showProjects() {
   let projectDetails = `
 ${color.cyan(selectedProject.name)}
 
-${color.white(selectedProject.description)}
+${color.magenta(selectedProject.description)}
 
-${color.yellow("🛠️  Tech Stack:")} ${selectedProject.tech}
-${color.yellow("📊 Status:")} ${selectedProject.status}`;
+${color.yellow("🛠️  Tech Stack:")} ${color.blue(selectedProject.tech)}`;
+
+  if (selectedProject.Link) {
+    projectDetails += `\n${color.yellow("🌐 Live Demo:")} ${color.cyan(
+      color.underline(selectedProject.Link)
+    )}`;
+  }
+
+  if (selectedProject.status) {
+    projectDetails += `\n${color.yellow("📊 Status:")} ${color.green(
+      selectedProject.status
+    )}`;
+  }
 
   if (selectedProject.github) {
-    projectDetails += `\n${color.yellow("🔗 GitHub:")} ${color.underline(
-      selectedProject.github
+    projectDetails += `\n${color.yellow("🔗 GitHub:")} ${color.cyan(
+      color.underline(selectedProject.github)
     )}`;
   }
 
@@ -171,7 +182,7 @@ ${color.yellow("📊 Status:")} ${selectedProject.status}`;
   if (selectedProject.highlights) {
     projectDetails += `\n\n${color.green("✨ Key Highlights:")}`;
     selectedProject.highlights.forEach((highlight) => {
-      projectDetails += `\n${color.green("•")} ${highlight}`;
+      projectDetails += `\n${color.green("•")} ${color.white(highlight)}`;
     });
   }
 
