@@ -2,7 +2,7 @@
 
 > _"Why have a boring resume when you can have an interactive CLI experience?"_
 
-Hey there! � I'm **Romit Dey**, and I got tired of sending static PDFs as portfolios. So I built this interactive command-line experience to showcase who I am, what I've built, and why you should probably hire me (or at least grab a coffee with me ☕).
+Hey there! I'm **Romit Dey**, and I got tired of sending static PDFs as portfolios. So I built this interactive command-line experience to showcase who I am, what I've built, and why you should probably hire me (or at least grab a coffee with me ☕).
 
 ## ✨ What Makes This Cool?
 
