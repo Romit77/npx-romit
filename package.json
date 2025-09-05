@@ -1,10 +1,11 @@
 {
   "name": "romit77",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "romit": "./index.js"
+    "romit": "./index.js",
+    "create-cli-portfolio": "./create-portfolio.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,11 +14,15 @@
   "keywords": [
     "portfolio",
     "cli",
-    "interactive"
+    "interactive",
+    "generator",
+    "template",
+    "npm",
+    "terminal"
   ],
   "author": "Romit Dey",
   "license": "MIT",
-  "description": "Interactive CLI portfolio showcasing skills and projects",
+  "description": "Interactive CLI portfolio showcasing skills and projects + CLI Portfolio Generator for creating your own",
   "dependencies": {
     "@clack/prompts": "^0.11.0",
     "picocolors": "^1.1.1"

@@ -1,8 +1,10 @@
-# 🚀 Romit's Terminal Portfolio
+# 🚀 Romit's Terminal Portfolio + CLI Portfolio Generator
 
 > _"Why have a boring resume when you can have an interactive CLI experience?"_
 
 Hey there! I'm **Romit Dey**, and I got tired of sending static PDFs as portfolios. So I built this interactive command-line experience to showcase who I am, what I've built, and why you should probably hire me (or at least grab a coffee with me ☕).
+
+**But wait, there's more!** 🎉 I've also created a **CLI Portfolio Generator** so YOU can create your own awesome terminal portfolio in minutes!
 
 ## ✨ What Makes This Cool?
 
@@ -13,21 +15,36 @@ Hey there! I'm **Romit Dey**, and I got tired of sending static PDFs as portfoli
 🎯 **WASD Navigation** - Because arrow keys are for normies  
 💫 **Smooth Animations** - Terminal apps can be beautiful too
 
-### 🛠️ Projects You'll Discover:
-
-- **Evencio** 🎉 - Event management platform with AI-powered features (because manual work is so 2023)
-- **TresorX** 💰 - Solana blockchain app for token management (riding the Web3 wave)
-- **Multiple Award-Winning Projects** 🏆 - From 300+ team competitions to top 10 finishes
-
 ## 🎮 Quick Start
 
-### The Easy Way (Recommended):
+### Experience My Portfolio:
 
 ```bash
 npx romit77
 ```
 
-_Just run this and explore my journey!_
+### Create Your Own CLI Portfolio:
+
+```bash
+npx romit77 create-cli-portfolio
+```
+
+This will guide you through creating your own personalized CLI portfolio that others can run with `npx your-username-portfolio`!
+
+## 🛠️ CLI Portfolio Generator Features
+
+✨ **Interactive Setup** - Guided questions to collect your info  
+🎨 **Custom ASCII Art** - Generated from your name  
+📁 **Project Showcase** - Add up to 5 projects with links  
+💼 **Skills Organization** - Categorized technical skills  
+📦 **Ready to Publish** - Generates complete npm package  
+🚀 **One Command Deploy** - `npm publish` and you're live!
+
+### Example Generated Commands:
+
+- `npx john-doe-portfolio`
+- `npx sarah-smith-portfolio`
+- `npx your-name-portfolio`
 
 ### The Developer Way:
 
@@ -76,15 +93,61 @@ Let's be honest - regular portfolios are boring. I wanted to create something th
 3. **Stands out** in a world of cookie-cutter resumes
 4. **Demonstrates my personality** (I like building cool stuff!)
 
-## 🎁 Want to Build Your Own?
+## � Create Your Own CLI Portfolio
 
-Feel free to fork this and make it yours! Here's how:
+Want to make your own CLI portfolio? I've got you covered! The generator will:
 
-1. Clone the repo
-2. Update the projects, skills, and personal info in `index.js`
-3. Change the package name in `package.json`
-4. Publish to npm with `npm publish`
-5. Now you have your own `npx yourname` command!
+1. **Ask you questions** about your background, projects, and skills
+2. **Generate ASCII art** from your name
+3. **Create a complete npm package** ready to publish
+4. **Give you a custom command** like `npx your-name-portfolio`
+
+### Step-by-Step Guide:
+
+```bash
+# Step 1: Generate your portfolio
+npx romit77 create-cli-portfolio
+
+# Step 2: Navigate to your new portfolio
+cd my-cli-portfolio
+
+# Step 3: Install dependencies
+npm install
+
+# Step 4: Test it locally
+npm start
+
+# Step 5: Publish to npm (make sure you're logged in)
+npm login
+npm publish
+
+# Step 6: Share with the world!
+# Now anyone can run: npx your-username-portfolio
+```
+
+### What Gets Generated:
+
+- 📄 **portfolio.js** - Your interactive CLI application
+- 📦 **package.json** - Ready for npm publishing
+- 📖 **README.md** - Documentation for your portfolio
+- 🎨 **Custom ASCII art** - Generated from your name
+- ⚙️ **Complete setup** - Just add your info and publish!
+
+## 💡 Pro Tips for Your CLI Portfolio
+
+- ✨ **Keep it personal** - Add your personality and humor
+- 🚀 **Showcase real projects** - Include live demos and GitHub links
+- 📱 **Make it interactive** - Let people explore your journey
+- 🎨 **Use colors wisely** - Make it visually appealing
+- 📝 **Update regularly** - Keep your projects and skills current
+
+## 🛠️ Built With Love (And These Technologies)
+
+**CLI Framework**: @clack/prompts, picocolors, Node.js  
+**Frontend Magic**: React.js, Next.js, TypeScript, TailwindCSS  
+**Backend Power**: Node.js, Express.js, PostgreSQL, MongoDB, Prisma  
+**Cloud & DevOps**: AWS, Docker, CI/CD, Vercel  
+**Blockchain**: Solana, Web3.js, Ethers.js 5. Now you have your own `npx yourname` command!
 
 ## 🚀 Pro Tips
 

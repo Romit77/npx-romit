@@ -1,3 +1,8 @@
+#!/usr/bin/env node
+
+// This is an example of what your generated CLI portfolio might look like
+// Run `npx romit77 create-cli-portfolio` to create your own!
+
 import { setTimeout } from "node:timers/promises";
 import * as p from "@clack/prompts";
 import color from "picocolors";
