@@ -20,7 +20,7 @@ Hey there! I'm **Romit Dey**, and I got tired of sending static PDFs as portfoli
 ### Experience My Portfolio:
 
 ```bash
-npx romit77
+npx romit
 ```
 
 ### Create Your Own CLI Portfolio:
@@ -80,9 +80,9 @@ romit  # Now available globally!
 ## 📱 Connect With Me
 
 - 📧 **Email**: romit77dey@gmail.com
-- 💼 **LinkedIn**: [linkedin.com/in/romit-dey](https://www.linkedin.com/in/romit77/)
-- 🐙 **GitHub**: [github.com/romit77dey](https://github.com/Romit77)
-- 🌐 **Portfolio**: [romit-dey.dev](https://bento.me/romit17)
+- 💼 **LinkedIn**: [Romit77](https://www.linkedin.com/in/romit77/)
+- 🐙 **GitHub**: [Romit77](https://github.com/Romit77)
+- 🌐 **Portfolio**: [Romit17](https://bento.me/romit17)
 
 ## 🤔 Why I Built This
 
