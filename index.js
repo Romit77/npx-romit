@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { setTimeout } from "node:timers/promises";
 import * as p from "@clack/prompts";
 import color from "picocolors";
