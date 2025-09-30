@@ -3,7 +3,9 @@
   "version": "2.0.2",
   "main": "index.js",
   "type": "module",
-  "bin": "./index.js",
+  "bin": {
+    "romit77": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
